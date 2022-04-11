@@ -5,7 +5,9 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-#import <DTBiOSSDK/DTBiOSSDK.h>
+#import "./Frameworks/DTBiOSSDK.framework/Headers/DTBiOSSDK.h"
+#import "./Frameworks/DTBiOSSDK.framework/Headers/DTBAdCallback.h"
+
 
 @interface RNAmazonTAMBanner : NSObject <RCTBridgeModule, DTBAdCallback>
 
